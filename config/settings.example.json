@@ -1,0 +1,18 @@
+{
+  "openai_api_key": "",
+  "openai_model": "gpt-4o",
+  "candidate_preferences": {
+    "keywords": [
+      "Software Engineer",
+      "Full Stack",
+      "Data Engineer",
+      "Tech Lead"
+    ],
+    "location": "Lima, Perú",
+    "modalities": [
+      "REMOTE",
+      "HYBRID"
+    ],
+    "easy_apply_only": true
+  }
+}

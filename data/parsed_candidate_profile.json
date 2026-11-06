@@ -1,0 +1,191 @@
+{
+  "structured_profile": {
+    "full_name": "LUIGGY BRICEÑO LUNA",
+    "email": "Luiggybrice@gmail.com",
+    "phone": "+51 992 025 943",
+    "location": "Lima, Perú",
+    "headline_or_role": "Líder en Infraestructura Cloud & Ciberseguridad | Arquitecto de Soluciones TI",
+    "total_years_experience": 12.0,
+    "skills_with_years": [
+      {
+        "name": "Cloud Computing (AWS, Azure, OCI, GCP)",
+        "years_experience": 7.0,
+        "proficiency": "Expert"
+      },
+      {
+        "name": "Ciberseguridad y Riesgos",
+        "years_experience": 12.0,
+        "proficiency": "Expert"
+      },
+      {
+        "name": "Inteligencia Artificial Generativa (LLMs, RAG)",
+        "years_experience": 4.0,
+        "proficiency": "Advanced"
+      },
+      {
+        "name": "Python",
+        "years_experience": 5.0,
+        "proficiency": "Advanced"
+      },
+      {
+        "name": "Gobierno de TI (ISO 27001)",
+        "years_experience": 5.0,
+        "proficiency": "Expert"
+      },
+      {
+        "name": "Gestión de Proyectos",
+        "years_experience": 7.0,
+        "proficiency": "Advanced"
+      }
+    ],
+    "work_history": [
+      {
+        "company": "EVOL",
+        "title": "Tech Lead Cloud & Infraestructura - BDM Regional",
+        "duration_years": 1.0,
+        "technologies_used": [
+          "OCI",
+          "AWS",
+          "Azure",
+          "GCP",
+          "Python",
+          "IA Generativa",
+          "LLMs",
+          "RAG"
+        ],
+        "responsibilities_summary": "Liderazgo técnico, arquitectura Cloud, gestión de presupuestos CAPEX/OPEX, gobierno de TI y desarrollo de soluciones de IA."
+      },
+      {
+        "company": "EVOL",
+        "title": "Manager de Proyectos y Transformación Digital",
+        "duration_years": 3.0,
+        "technologies_used": [
+          "Cloud",
+          "Python",
+          "OpenAI",
+          "LangChain"
+        ],
+        "responsibilities_summary": "Gestión de proyectos de transformación digital, modernización tecnológica y diseño de soluciones de IA generativa."
+      },
+      {
+        "company": "LUGEEK",
+        "title": "Fundador y Líder Tecnológico",
+        "duration_years": 1.0,
+        "technologies_used": [
+          "Azure",
+          "AWS",
+          "OCI"
+        ],
+        "responsibilities_summary": "Diseño de programas de capacitación en Cloud, seguridad y desarrollo de laboratorios prácticos."
+      },
+      {
+        "company": "UPN · UCAL · UTEC · ISIL · IDAT · CERTUS · CyberVolunteers",
+        "title": "Docente de Carrera",
+        "duration_years": 3.0,
+        "technologies_used": [
+          "IA Generativa",
+          "Cloud Computing"
+        ],
+        "responsibilities_summary": "Facilitación de cursos en Ingeniería de Sistemas, seguridad informática y tecnologías emergentes."
+      },
+      {
+        "company": "GEINCOS",
+        "title": "Jefe TI",
+        "duration_years": 1.0,
+        "technologies_used": [
+          "GLPI",
+          "OpenVPN",
+          "Zabbix",
+          "OpenProject"
+        ],
+        "responsibilities_summary": "Liderazgo de equipos, implementación de infraestructura crítica, gobierno de TI y cumplimiento de normativas ISO."
+      }
+    ],
+    "education": [
+      "MBA — EUDE Business School, España (2023–2024)",
+      "Ingeniería de Sistemas — Universidad Privada del Norte (UPN), Perú (2014–2020)",
+      "Coaching Profesional — AXON, Argentina (2025–2026)"
+    ],
+    "certifications": [
+      "AI Certified Foundations Associate — Oracle (2025)",
+      "Security Profesional — OCI (2025)",
+      "OCI Certified Foundations Associate (OCI, 2025)",
+      "IA Generativa, Santander (2025)",
+      "Design Sprint Professional Certification, DSPC (2024)",
+      "Prompt Engineering Foundation Learner, Certiprof (2024)",
+      "Cybersecurity CAPC, Certiprof (2024)",
+      "Business Agility Learner, Certiprof (2024)",
+      "Transformación Digital, Udemy (2024)",
+      "Kanban Awareness Certified, iLearn (2023)",
+      "Lean Six Sigma White Belt Professional, CertiProf (2023)",
+      "Google Cloud Platform, Udemy (2022)",
+      "Scrum Foundation Professional Certificate, CertiProf (2022)",
+      "Auditor Interno ISO 27001, CNSD PCM (2022)",
+      "Business Intelligence BIFPC, CertiProf (2022)",
+      "Design Thinking, IEP (2021)",
+      "Transformación Digital, IEP (2021)"
+    ],
+    "languages": [
+      "Español (Nativo)",
+      "Inglés (Intermedio)",
+      "Portugués (Básico)"
+    ],
+    "fact_sheet_skills": {
+      "cloud computing": 7.0,
+      "ciberseguridad": 12.0,
+      "inteligencia artificial generativa": 4.0,
+      "python": 5.0,
+      "gestión de proyectos": 7.0,
+      "iso 27001": 5.0
+    },
+    "skills_inventory": [
+      {
+        "name": "Cloud Computing (AWS, Azure, OCI, GCP)",
+        "years_experience": 7.0,
+        "proficiency": "Expert"
+      },
+      {
+        "name": "Ciberseguridad y Riesgos",
+        "years_experience": 12.0,
+        "proficiency": "Expert"
+      },
+      {
+        "name": "Inteligencia Artificial Generativa (LLMs, RAG)",
+        "years_experience": 4.0,
+        "proficiency": "Advanced"
+      },
+      {
+        "name": "Python",
+        "years_experience": 5.0,
+        "proficiency": "Advanced"
+      },
+      {
+        "name": "Gobierno de TI (ISO 27001)",
+        "years_experience": 5.0,
+        "proficiency": "Expert"
+      },
+      {
+        "name": "Gestión de Proyectos",
+        "years_experience": 7.0,
+        "proficiency": "Advanced"
+      }
+    ],
+    "professional_summary": "Líder en Infraestructura Cloud & Ciberseguridad | Arquitecto de Soluciones TI",
+    "languages_map": {
+      "Español": "Nativo",
+      "Inglés": "Intermedio",
+      "Portugués": "Básico"
+    }
+  },
+  "embedding": [],
+  "raw_text_length": 9577,
+  "personal_details": {
+    "first_name": "LUIGGY",
+    "last_name": "BRICEÑO LUNA",
+    "email": "Luiggybrice@gmail.com",
+    "phone_country_code": "+51",
+    "phone_number": "992025943",
+    "city": "Lima",
+    "country": "Perú"
+  }
+}

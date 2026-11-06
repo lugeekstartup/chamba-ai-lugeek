@@ -1,0 +1,254 @@
+[
+  {
+    "job_id": "4487021574",
+    "title": "Cloud Engineer (AWS) - Remote Work | REF#298065",
+    "company": "BairesDev",
+    "location": "Lima, Peru",
+    "url": "https://www.linkedin.com/jobs/view/4487021574/",
+    "date_posted": "2026-11-03",
+    "portal": "LINKEDIN",
+    "destination_portal": "Sitio Web de BairesDev",
+    "is_easy_apply": false,
+    "description": "At BairesDev®, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley.\nOur diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide.\nWhen you apply for this position, you're taking the first step in a process that goes beyond the ordinary. We aim to align your passions and skills with our vacancies, setting you on a path to exceptional career development and success.\nCloud Engineer (AWS) at BairesDev\nAs a Cloud Engineer (AWS), you will build and maintain robust infrastructure on the Amazon Web Services platform. You will ensure the scalability and security of cloud environments while enabling development teams to leverage AWS-native services efficiently.\nWhat You'll Do\nDesign and deploy scalable, highly available, and fault-tolerant systems on AWS.\nAutomate infrastructure provisioning and management using CloudFormation and CDK.\nImplement and manage serverless architectures using AWS Lambda to optimize performance and cost.\nConfigure and maintain AWS networking components, including VPCs, subnets, and routing.\nEnforce cloud security best practices and identity management across all AWS environments.\nMonitor system performance and implement proactive improvements to ensure platform reliability.\nWhat We Are Looking For\n4+ years of experience in Cloud Engineering, DevOps, or Infrastructure.\nProven expertise in building and maintaining production infrastructure on AWS.\nProficiency with AWS-native services including CloudFormation and CDK.\nHands-on experience implementing serverless solutions using Lambda.\nDeep understanding of AWS networking and security configurations.\nAdvanced proficiency in English.\nHow we do make your work (and your life) easier:\n100% remote work (from anywhere).\nExcellent compensation in USD or your local currency if preferred\nHardware and software setup for you to work from home.\nFlexible hours: create your own schedule.\nPaid parental leaves, vacations, and national holidays.\nInnovative and multicultural work environment: collaborate and learn from the global Top 1% of talent.\nSupportive environment with mentorship, promotions, skill development, and diverse growth opportunities.\nJoin a global team where your unique talents can truly thrive and make a significant impact!\nApply now!",
+    "evaluation": {
+      "match_score": 75,
+      "recommendation": "MANUAL_REVIEW",
+      "salary_fit": "NOT_SPECIFIED",
+      "matching_points": [
+        "Más de 12 años de experiencia, superando ampliamente el requisito mínimo de 4 años.",
+        "Experiencia sólida y certificable en AWS Cloud Computing.",
+        "Perfil orientado a la arquitectura de soluciones y gestión de infraestructura, alineado con las responsabilidades de diseño y despliegue.",
+        "Experiencia en liderazgo técnico, lo que aporta valor añadido a la posición."
+      ],
+      "missing_gaps": [
+        "No se evidencia experiencia técnica profunda específica en AWS CloudFormation o CDK en la descripción del perfil.",
+        "Falta detalle sobre la implementación hands-on de arquitectura serverless (AWS Lambda) en entornos de producción recientes.",
+        "El perfil está enfocado hacia roles de gestión (Manager/Lead), lo que podría suponer un riesgo de sobrecualificación para una posición de Cloud Engineer operativo."
+      ],
+      "brief_rationale": "El candidato tiene un perfil técnico robusto y una amplia experiencia en cloud, superando el seniority requerido; sin embargo, existe un posible riesgo de sobrecualificación debido a su reciente enfoque en liderazgo y gestión de proyectos. Es necesario confirmar en una entrevista si mantiene la disposición y el dominio técnico práctico en herramientas de infraestructura como código (CloudFormation/CDK) que la vacante exige."
+    }
+  },
+  {
+    "job_id": "4479223186",
+    "title": "Semi Senior DevOps - Remote Work | REF#305642",
+    "company": "BairesDev",
+    "location": "Lima, Peru",
+    "url": "https://www.linkedin.com/jobs/view/4479223186/",
+    "date_posted": "2026-11-03",
+    "portal": "LINKEDIN",
+    "destination_portal": "Sitio Web de BairesDev",
+    "is_easy_apply": false,
+    "description": "At BairesDev®, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley.\nOur diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide.\nWhen you apply for this position, you're taking the first step in a process that goes beyond the ordinary. We aim to align your passions and skills with our vacancies, setting you on a path to exceptional career development and success.\nSemi Senior DevOps at BairesDev\nIn the Semi Senior DevOps position, use your skills to manage CI/CD workflows, automate deployment processes, and optimize cloud infrastructure. You'll contribute significantly to improving system scalability and reliability, playing a key role in our DevOps strategy and implementation.\nWhat you will do\nLead the development and refinement of CI/CD pipelines, integrating best practices and new technologies.\nOversee the operation and scaling of cloud infrastructure, focusing on high availability and fault tolerance.\nManage complex container orchestration setups, optimizing for performance and scalability.\nDesign and implement comprehensive monitoring and alerting systems.\nEnforce and enhance security practices and compliance across cloud and infrastructure environments.\nAutomate infrastructure provisioning and management processes using tools like Terraform or Ansible.\nWhat we are looking for\n3+ years of experience with DevOps.\nProven experience with APIs and Web Services.\nExperience with database technologies.\nAdvanced knowledge of algorithms and data structures.\nBasic IT infrastructure knowledge.\nExperience in designing and implementing software modules for real-world applications.\nFamiliarity with CI/CD pipelines.\nAdvanced level of English.\nHow we do make your work (and your life) easier:\n100% remote work (from anywhere).\nExcellent compensation in USD or your local currency if preferred\nHardware and software setup for you to work from home.\nFlexible hours: create your own schedule.\nPaid parental leaves, vacations, and national holidays.\nInnovative and multicultural work environment: collaborate and learn from the global Top 1% of talent.\nSupportive environment with mentorship, promotions, skill development, and diverse growth opportunities.\nJoin a global team where your unique talents can truly thrive!",
+    "evaluation": {
+      "match_score": 75,
+      "recommendation": "MANUAL_REVIEW",
+      "salary_fit": "NOT_SPECIFIED",
+      "matching_points": [
+        "Amplia experiencia técnica (12 años) que supera el requisito mínimo de 3 años.",
+        "Conocimiento profundo en Cloud Computing (AWS, Azure, OCI, GCP) alineado con la gestión de infraestructura.",
+        "Experiencia técnica comprobable en despliegue y arquitectura de soluciones.",
+        "Dominio de herramientas necesarias para la automatización (Python, Gestión de Infraestructura)."
+      ],
+      "missing_gaps": [
+        "Perfil excesivamente senior (Overqualified): El candidato tiene un perfil de liderazgo/gestión (Tech Lead/Manager) que podría no alinearse con una posición Semi Senior técnica.",
+        "Falta de mención explícita a herramientas de CI/CD específicas (Jenkins, GitLab CI, GitHub Actions) en el resumen del perfil.",
+        "Falta de evidencia técnica detallada en el manejo de contenedores (Kubernetes/Docker) que es clave en la descripción del puesto."
+      ],
+      "brief_rationale": "El candidato está sobrecalificado para una posición Semi Senior debido a sus 12 años de experiencia y roles de liderazgo previos. Aunque cumple con las competencias técnicas base, existe un riesgo alto de que el candidato no encuentre el desafío técnico operativo que busca la vacante, por lo que se recomienda una revisión manual para evaluar su interés real en un rol de ejecución técnica."
+    }
+  },
+  {
+    "job_id": "4304483663",
+    "title": "Especialista Cloud",
+    "company": "Inetum",
+    "location": "San Isidro, Peru",
+    "url": "https://www.linkedin.com/jobs/view/4304483663/",
+    "date_posted": "2026-11-02",
+    "portal": "LINKEDIN",
+    "destination_portal": "LinkedIn (Easy Apply)",
+    "is_easy_apply": true,
+    "description": "Descripción de la empresa\nSomos\nInetum\n, una compañía de servicios ágiles que proporciona soluciones digitales y un grupo global de tecnólogos que acompaña a sus clientes en el proceso de digitalización aprovechando al máximo el digital flow.\nOfrecemos a nuestros clientes una combinación única de proximidad, organización sectorial y soluciones de calidad. Presente en más de 26 países, el Grupo tiene cerca de 27.000 colaboradores y apunta a continuar creciendo.\n¡En Inetum acompañamos a nuestros clientes y colaboradores en su camino al éxito!\nSi te gusta reinventarte y resolver problemas con nuevas estrategias, trabajar en proyectos de IT y de negocios: ¡Postula ahora!\nRequisitos\nResponsabilidades\nExperiencia de 4 años a más en la administración de servidores de Nube.\nExperiencia en Azure IaaS: Infrastructure as a Service.\nExperiencia en Azure PaaS: Platform as a Service.\nExperiencia en Azure SaaS: Software as a Service.\nExperiencia en nube OCI.\nExperiencia en Migraciones a Microsoft Azure. Microsoft Azure AD.\nExperiencia en Virtualización de Servidores con Vmware\nGestión de contenedores (Kubernetes) en Azure.\nExperiencia em Terraform (deseable)\nCreación y configuración de recursos cloud nivel servidores y aplicaciones (Apps, Automation Accounts, VM's, Storage Accounts)\nCreación y configuración de recursos cloud nivel redes (Express Route, VPN, VNets, NSG, Private Endpoint).\nConocimientos en administración de SO Linux y Windows.\nEjecución de scripts para asignación de permisos a aplicaciones empresariales en cloud.\nAsignación de roles y permisos a aplicaciones empresariales en cloud (IAM/ PIM /RBAC).\nConocimientos en metodologías agiles.\nCreación y seguimiento de tickets con proveedor cloud.\nConocimiento en Azure Data Factory y Azure Databricks\nDeseable\nSkills de automatización.\nInformación adicional\n¿Qué vamos a ofrecerte como parte del equipo?\nRemuneración en planilla con todas las condiciones de ley.\nTarjeta de Alimentos\nBeneficios corporativos a través de nuestra plataforma de descuentos.\nCapacitaciones constantes acorde a tu línea de carrera y otras de interés general (plataformas de e-learning).\nLa oportunidad de participar en retos altamente innovadores.\nLínea de carrera.\nConoce más de nosotros en www.inetum.com/es o visita nuestras redes sociales como Inetum Perú para conocer más de nuestra cultura corporativa y metodologías de trabajo. ¡Te esperamos!\nEn Inetum promovemos la diversidad de género, origen étnico, nacionalidad, la inclusión de personas con discapacidad y/o habilidades diferentes mediante la igualdad de oportunidades en todos los procesos, y buscamos ampliar las oportunidades de desarrollo profesional\n.",
+    "evaluation": {
+      "match_score": 75,
+      "recommendation": "MANUAL_REVIEW",
+      "salary_fit": "NOT_SPECIFIED",
+      "matching_points": [
+        "Experiencia sólida en múltiples nubes (Azure y OCI, requeridos por la vacante).",
+        "Más de 4 años de experiencia en infraestructura, superando ampliamente el requisito mínimo.",
+        "Experiencia técnica comprobable en arquitectura Cloud y liderazgo de proyectos.",
+        "Formación académica en Ingeniería de Sistemas alineada con el perfil requerido."
+      ],
+      "missing_gaps": [
+        "No se especifica experiencia práctica profunda en VMware ni Kubernetes (gestión de contenedores).",
+        "Falta detalle sobre la ejecución de tareas de operación diaria (tickets, soporte de red Azure, gestión de Azure Data Factory/Databricks).",
+        "El perfil actual es de un nivel de seniority (Tech Lead/Manager) que podría resultar en una sobrecalificación para una posición de especialista."
+      ],
+      "brief_rationale": "El candidato posee una amplia experiencia técnica y estratégica en entornos multi-cloud que cubre el núcleo de los requisitos de Inetum. Sin embargo, su perfil actual está más orientado a la arquitectura y gestión de alto nivel, por lo que se requiere una entrevista para confirmar su disposición hacia las tareas operativas diarias y técnicas específicas de la vacante."
+    }
+  },
+  {
+    "job_id": "4486056713",
+    "title": "Cloud Engineer with Azure, Semi Senior - PE",
+    "company": "Globant",
+    "location": "Lima, Peru",
+    "url": "https://www.linkedin.com/jobs/view/4486056713/",
+    "date_posted": "2026-11-03",
+    "portal": "LINKEDIN",
+    "destination_portal": "Sitio Web de Globant",
+    "is_easy_apply": false,
+    "description": "At Globant, we are working to make the world a better place, one step at a time. We enhance business development and enterprise solutions to prepare them for a digital future. With a diverse and talented team present in more than 30 countries, we are strategic partners to leading global companies in their business process transformation.\nWe seek a\nCloud Engineer with Azure and Kubernetes, Semi Senior Level\nwho shares our passion for innovation and change. This role is critical to helping our business partners evolve and adapt to consumers' personalized expectations in this new technological era.\nWhat will help you succeed:\nFluent English (B2 - Upper Intermediate)\nAzure (Storage, Serverless, API Management, Key Vault, VNET, RBAC)\nNetworking/Connectivity\nKubernetes\nDocker\nThis job can be filled in\nPerú\n#Remote\nCreate with us digital products that people love. We will bring businesses and consumers together through AI technology and creativity, driving digital transformation to impact the world positively.\nWe may use AI and machine learning technologies in our recruitment process. Globant is an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, veteran status, or any other characteristic protected by applicable federal, state, or local law. Globant is also committed to providing reasonable accommodations for qualified individuals with disabilities in our job application procedures. If you need assistance or an accommodation due to a disability, please let your recruiter know.",
+    "evaluation": {
+      "match_score": 70,
+      "recommendation": "MANUAL_REVIEW",
+      "salary_fit": "NOT_SPECIFIED",
+      "matching_points": [
+        "Experiencia sólida demostrada en Azure y entornos Cloud.",
+        "Residencia en Perú, cumpliendo con el requisito de ubicación geográfica.",
+        "Perfil técnico con base fuerte en arquitectura y despliegue de soluciones."
+      ],
+      "missing_gaps": [
+        "Sobrecalificación: El candidato es un perfil Senior/Lead/Manager, mientras la vacante es Semi Senior.",
+        "Falta evidencia explícita de gestión técnica operativa en Kubernetes y Docker (hands-on).",
+        "No se menciona el nivel de inglés B2 requerido."
+      ],
+      "brief_rationale": "El candidato posee un expertise superior al requerido, lo cual representa un riesgo de retención a largo plazo para una posición Semi Senior. Aunque cuenta con el stack tecnológico necesario, su trayectoria reciente se ha enfocado en gestión y arquitectura estratégica, por lo que se requiere validar si está dispuesto a asumir tareas operativas de ingeniería y si su nivel de inglés cumple con el estándar B2 de la posición."
+    }
+  },
+  {
+    "job_id": "4486088597",
+    "title": "Especialista Cloud L2 – AWS & Kubernetes - Inglés avanzado",
+    "company": "NTT DATA Europe & Latam",
+    "location": "Lima, Peru",
+    "url": "https://www.linkedin.com/jobs/view/4486088597/",
+    "date_posted": "2026-11-03",
+    "portal": "LINKEDIN",
+    "destination_portal": "LinkedIn (Easy Apply)",
+    "is_easy_apply": true,
+    "description": "Somos\nNTT DATA\n, la empresa de servicios de TI más grande del mundo. Contamos con más de\n140,000 profesionales\ny operamos en más de\n50 países\n, brindando soluciones de negocio, estrategia, desarrollo y mantenimiento de aplicaciones tecnológicas, además de servicios de outsourcing. Estás a un paso de convertirte en un\nDigital Lover\n. ¡Te invitamos a formar parte de nuestro equipo!\n🚀 Estamos Contratando:\nEspecialista Cloud L2 – AWS & Kubernetes - Inglés Avanzado\nEn\nNTT DATA\nbuscamos un profesional altamente técnico y orientado a la operación, con experiencia en entornos\nCloud, Kubernetes y microservicios\n, capaz de resolver incidentes, automatizar despliegues y garantizar la estabilidad de plataformas críticas para el negocio. ☁️⚙️\n💼\nPosición:\nEspecialista Cloud L2\n☁️\nCloud:\nAWS\n🛠️\nStack Tecnológico:\nKubernetes | AWS | Helm | ArgoCD | RDS | Kafka | MWAA | Dynatrace\n🕒\nTurnos:\nRotativos 24x7\n🎯 ¿Cuál será tu desafío?\n🔹 Desplegar y administrar\nmicroservicios en Kubernetes\n, configurando nuevos entornos, servicios y parámetros operativos.\n🔹 Realizar troubleshooting sobre\nKubernetes\n, Helm y repositorios de configuración, resolviendo problemas de despliegue e inicio de aplicaciones.\n🔹 Gestionar\nsecretos, permisos, cuentas de servicio (Service Accounts) y roles AWS\n, identificando y solucionando incidencias de acceso.\n🔹 Administrar servicios AWS como\nRDS, EC2, S3, Cognito, CloudWatch y MWAA\n.\n🔹 Gestionar y resolver incidentes relacionados con\nKafka, Debezium y DAGs\n.\n🔹 Monitorear aplicaciones y servicios utilizando\nCloudWatch y Dynatrace\n, analizando métricas, alertas y degradaciones de rendimiento.\n🔹 Brindar soporte a herramientas como\nArgoCD, pgAdmin, SQLPad, Jaeger y Kafdrop\n.\n🔹 Investigar incidentes relacionados con\nAPIs e integraciones entre microservicios\n.\n🔹 Administrar certificados, secretos y almacenes de claves\nJKS (Java Keystore)\n.\n🔹 Implementar ajustes de escalabilidad en Kubernetes mediante\nHPA (Horizontal Pod Autoscaler)\npara asegurar la disponibilidad y continuidad de los servicios.\n🔎 ¿Qué buscamos?\n✅ Experiencia práctica en\nKubernetes\ny troubleshooting de arquitecturas de microservicios.\n✅ Experiencia trabajando con\nAWS\ny sus principales servicios.\n✅ Conocimientos de\nHelm, ArgoCD y gestión de configuraciones\n.\n✅ Experiencia en monitoreo y observabilidad de plataformas.\n✅ Conocimientos en bases de datos,\nRDS\ny lenguaje\nSQL\n.\n✅ Experiencia o conocimientos en\nKafka, Debezium y/o MWAA (Airflow)\n.\n✅ Capacidad analítica y de resolución de problemas en entornos productivos.\n💙 Si disfrutas investigar incidentes, trabajar con tecnologías Cloud y resolver desafíos técnicos complejos en entornos distribuidos, ¡queremos conocerte!\n💡 Beneficios\n📝 Contrato indeterminado desde el primer día.\n🚑 EPS y seguro oncológico cubiertos al 100%.\n💳 Tarjeta de alimentación\nPLUXEE\n.\n🎯 Días libres adicionales a tus vacaciones anuales.\n🎖️ Excelentes oportunidades de crecimiento y desarrollo profesional en una empresa líder de consultoría tecnológica.\n🌎 Participación en proyectos de gran escala para importantes clientes nacionales e internacionales.\n📚 Acceso a capacitaciones y certificaciones profesionales.\n🤝\nDiversidad e Inclusión\n\"NTT DATA es un entorno inclusivo donde cada voz es escuchada y cada historia es valorada. Por ello, nuestro proceso de reclutamiento y selección se enfoca en identificar talento sin distinción ni sesgos relacionados con género, sexo, orientación sexual, discapacidad, edad u otras características personales.\"",
+    "evaluation": {
+      "match_score": 60,
+      "recommendation": "DISCARD",
+      "salary_fit": "NOT_SPECIFIED",
+      "matching_points": [
+        "Experiencia sólida demostrada en Cloud Computing, específicamente AWS.",
+        "Formación técnica base en Ingeniería de Sistemas con experiencia en entornos de infraestructura."
+      ],
+      "missing_gaps": [
+        "Sobrecalificación: El perfil es de un Tech Lead/Manager con 12 años de experiencia, mientras que la vacante es para un rol operativo L2.",
+        "Falta de evidencia operativa directa en Kubernetes (Helm, ArgoCD) y monitoreo específico (Dynatrace, Kafka).",
+        "Falta de mención explícita sobre disposición para trabajar en turnos rotativos 24x7, lo cual es crítico para un rol L2."
+      ],
+      "brief_rationale": "El candidato está significativamente sobrecalificado para una posición de Especialista Cloud L2, dado que su trayectoria actual se enfoca en gestión estratégica, arquitectura y liderazgo de proyectos. Existe un desalineamiento importante en el seniority; un perfil con 12 años de experiencia en gestión difícilmente se adaptará a las tareas operativas y de soporte técnico diario de este puesto."
+    }
+  },
+  {
+    "job_id": "4462962704",
+    "title": "Especialista DevOps",
+    "company": "NTT DATA Europe & Latam",
+    "location": "Lima, Peru",
+    "url": "https://www.linkedin.com/jobs/view/4462962704/",
+    "date_posted": "2026-11-03",
+    "portal": "LINKEDIN",
+    "destination_portal": "LinkedIn (Easy Apply)",
+    "is_easy_apply": true,
+    "description": "Somos NTT DATA, la empresa de servicios TI más grande del mundo, contamos con más de 140.000 profesionales y operamos en más de 50 países. Brindamos soluciones de negocio, estrategia, desarrollo y mantenimiento de aplicaciones tecnológicas y outsourcing.\nEstas a un paso de ser un Digital Lover, te invitamos a ser parte de nuestra empresa.\n🚀\n¡Estamos buscando un/a DevOps / Platform Engineer!\nEn\nNTT DATA\nbuscamos un/a profesional con experiencia en\nDevOps, Cloud y Platform Engineering\n, interesado/a en participar en la construcción, automatización y evolución de plataformas modernas sobre\nAWS y Azure\n. ☁️💙\n📍\nUbicación:\nLima, Perú\n🏢\nModalidad:\nSemi presencial – 2 veces por semana en San Isidro\n💻\nEspecialidad:\nDevOps | AWS | Azure | IaC | CI/CD | Kubernetes\n🎯\n¿Cuál será tu reto?\n🔹 Diseñar, automatizar y mantener infraestructura en entornos\nAWS y Azure\n.\n🔹 Implementar soluciones de\nInfrastructure as Code (IaC)\nutilizando Terraform, CloudFormation, ARM/Bicep u otras tecnologías.\n🔹 Diseñar y mantener pipelines de\nCI/CD\n, optimizando los procesos de integración y despliegue continuo.\n🔹 Trabajar con tecnologías de contenedores y orquestación como\nDocker, Kubernetes, EKS y AKS\n.\n🔹 Implementar y optimizar soluciones de\nmonitoreo y observabilidad\n.\n🔹 Automatizar procesos operativos y promover buenas prácticas de\nDevOps y Platform Engineering\n.\n🔹 Documentar arquitecturas, configuraciones, procedimientos y soluciones técnicas.\n🔹 Colaborar con equipos técnicos, desarrollo y proveedores para garantizar plataformas confiables, escalables y eficientes.\n🔎\n¿Qué buscamos?\n✅ Entre\n3 y 5 años de experiencia\nen posiciones DevOps, Cloud Engineering, Platform Engineering o similares.\n✅ Experiencia trabajando en entornos Cloud con\nAWS y Azure\n.\n✅ Experiencia en\nInfraestructura como Código (IaC)\ncon Terraform, CloudFormation, ARM/Bicep o similares.\n✅ Experiencia implementando o administrando pipelines\nCI/CD\ncon GitLab CI, GitHub Actions, Azure DevOps, Jenkins u otras herramientas.\n✅ Conocimientos de\nDocker y Kubernetes\n, idealmente trabajando con\nEKS y/o AKS\n.\n✅ Experiencia en herramientas de monitoreo y observabilidad como\nCloudWatch, Azure Monitor, Prometheus, Grafana\nu otras.\n✅ Capacidad para\ndocumentar y comunicar soluciones técnicas\nde manera clara.\n🌎\nInglés intermedio\nserá valorado para documentación técnica e interacción con proveedores.\n📍 Disponibilidad para trabajar bajo modalidad\nsemi presencial en San Isidro, Lima, 2 veces por semana\n.\n💡BENEFICIOS:\n📝 Contrato indefinido bajo planilla desde el primer día.\n🚑 EPS y Seguro Oncológico cubierto al 100%\n💳 Tarjeta de Alimentación PLUXEE.\n🎯 Día libres adicionales a vacaciones.\n🎖️ Inmejorable oportunidad de línea de carrera profesional en nuestra consultora líder en el mercado TI.\n🌎 Oportunidad de trabajar en proyectos de clientes de gran envergadura locales e internacionales.\n📚 Capacitaciones y Certificaciones.\n“NTT DATA es un entorno inclusivo donde cada voz es escuchada y cada historia es valorada. Por eso, nuestro proceso de selección y reclutamiento se enfoca en identificar el talento sin distinción o sesgos relacionados con género, sexo, orientación sexual, discapacidad, edad u otras características personales”\n💙 Si buscas un nuevo desafío donde puedas seguir desarrollándote en\nCloud, automatización, DevOps y Platform Engineering\n, ¡queremos conocerte!",
+    "evaluation": {
+      "match_score": 60,
+      "recommendation": "DISCARD",
+      "salary_fit": "NOT_SPECIFIED",
+      "matching_points": [
+        "Experiencia sólida en arquitecturas multi-cloud (AWS y Azure).",
+        "Formación académica relevante y certificaciones/conocimientos en gestión de proyectos.",
+        "Trayectoria profesional en empresas de servicios tecnológicos en Perú."
+      ],
+      "missing_gaps": [
+        "El perfil es de un nivel seniority superior (Tech Lead/Manager) al requerido (DevOps Engineer), lo que implica riesgo de desmotivación o sobrecualificación.",
+        "Falta evidencia explícita de herramientas de CI/CD (GitLab CI, Azure DevOps, etc.) y orquestación (Kubernetes) en la descripción de su experiencia reciente.",
+        "El enfoque actual del candidato está más orientado a gestión, estrategia y ciberseguridad que a la ejecución operativa técnica (DevOps Engineering) demandada."
+      ],
+      "brief_rationale": "Aunque el candidato tiene una base técnica fuerte en Cloud, su perfil actual es de nivel directivo o gerencial con 12 años de experiencia, superando significativamente el rango de 3-5 años solicitado. Existe un desalineamiento importante entre su seniority actual y el rol técnico-operativo de DevOps, lo que hace poco probable que se ajuste a las necesidades específicas de ejecución del día a día del puesto."
+    }
+  },
+  {
+    "job_id": "4484691568",
+    "title": "Administrador Multicloud N2",
+    "company": "Itera Process",
+    "location": "Lima, Peru",
+    "url": "https://www.linkedin.com/jobs/view/4484691568/",
+    "date_posted": "2026-11-03",
+    "portal": "LINKEDIN",
+    "destination_portal": "LinkedIn (Easy Apply)",
+    "is_easy_apply": true,
+    "description": "Perfil de Puesto Administrador MultiCloud N2\nModalidad: Híbrido | Lugar: Miraflores, Lima.\nDescripción del Puesto: El/la Administrador/a Cloud N2 (AWS, Azure) es responsable del soporte técnico avanzado y del monitoreo\n24x7\n, mantenimiento y optimización de la infraestructura Multi-Cloud y entornos de contenedores. Sus funciones principales abarcan el troubleshooting y resolución de incidentes complejos (escalados por el N1), la administración operativa de clústeres Kubernetes y la ejecución controlada de pases a producción. Asimismo, se encarga de aplicar políticas de seguridad (hardening), gestionar despliegues automatizados y asegurar la alta disponibilidad de los servicios críticos, garantizando el cumplimiento estricto de los estándares de la empresa y los SLAs vigentes.\nRequisitos mínimos\nExperiencia: 3 a 4 años en administración, operación y soporte técnico directo de entornos de nube, con experiencia comprobable gestionando flujos de incidentes y cambios.\nEducación:\nTítulo universitario, Ingeniería Informática/sistemas o campo relacionado.\nCertificaciones:\n· AWS Certified Cloud Practitioner (obligatorio).\n· AWS Certified Solutions Architect – Associate (Deseable)\n· Otras certificaciones de AWS (deseables).\nConocimientos Técnicos:\nExperiencia: 3+ años operando y resolviendo fallas complejas (P1/P2) en entornos Multi-Cloud (AWS, Azure) bajo estrictos SLAs.\nOrquestación: Experiencia comprobada administrando contenedores en Kubernetes (AWS EKS / Azure AKS) y Docker.\nCloud Core (AWS): Dominio en la gestión de EC2, RDS, VPC, S3, IAM y políticas de backup.\nSistemas y Seguridad: Administración de Linux (Red Hat) y Windows. Conocimiento en políticas de Hardening (estándares CIS) y cumplimiento PCI-DSS.\nAutomatización y Monitoreo: Operación de plataformas como New Relic y CloudWatch. Nociones de Infraestructura como Código (Terraform).\nGestión (ITSM): Manejo de incidentes y cambios en ITSM operando bajo el marco ITIL v4.\nResponsabilidades:\nSoporte Avanzado: Diagnosticar y resolver incidentes complejos (P1/P2) en infraestructuras Multi-Cloud (AWS, Azure) cumpliendo los estrictos tiempos de SLA.\nOrquestación Cloud: Administrar y asegurar la alta disponibilidad de contenedores en Kubernetes (EKS/AKS) y Service Mesh (Istio).\nGestión de Cambios e IaC: Ejecutar pases a producción y mantenimientos mediante código (Terraform) y prácticas DevSecOps, sin afectar el negocio.\nObservabilidad: Supervisar la salud del sistema con New Relic y CloudWatch, aplicando runbooks de auto-remediación ágil.\nCiberseguridad y Cumplimiento: Aplicar políticas de Hardening (CIS), gestionar IAM y asegurar el cumplimiento continuo de la normativa PCI-DSS.\nContinuidad: Ejecutar, auditar y validar políticas de Backup en la nube y pruebas de Recuperación ante Desastres (DRP).\nITIL / ITSM: Gestionar tickets de requerimientos, problemas y cambios de inicio a fin utilizando las herramientas del cliente.\n¿Qué ofrecemos?\nSueldo Base competitivo\nModalidad: tiempo Completo\nBeneficios: Todos los beneficios de ley.\nIdioma: Clases de inglés.\nFormación Continua: Path de capacitación y certificación en soluciones Cloud (AWS, GCP y Azure).\nRecepción de CV:\nluis.torres@iteraprocess.com",
+    "evaluation": {
+      "match_score": 60,
+      "recommendation": "DISCARD",
+      "salary_fit": "NOT_SPECIFIED",
+      "matching_points": [
+        "Experiencia sólida en entornos Multi-Cloud (AWS, Azure).",
+        "Formación académica en Ingeniería de Sistemas.",
+        "Conocimiento en ciberseguridad y gobierno de TI (alineado con hardening/ISO 27001)."
+      ],
+      "missing_gaps": [
+        "Sobrecalificación evidente: el candidato es un Tech Lead/Manager con 12 años de experiencia, mientras que la vacante es para un rol operativo N2.",
+        "Falta de enfoque técnico operativo reciente en resolución de tickets de soporte N2/ITIL y administración diaria de clústeres Kubernetes/Docker.",
+        "Ausencia de mención específica de herramientas de observabilidad (New Relic/CloudWatch) o gestión práctica de IaC (Terraform) en su rol actual de gestión/arquitectura."
+      ],
+      "brief_rationale": "El candidato está significativamente sobrecalificado para una posición N2 de soporte y operaciones. Su perfil actual es de dirección y arquitectura, por lo que es poco probable que permanezca en un rol operativo enfocado en el monitoreo 24x7 y la gestión de incidentes del día a día."
+    }
+  },
+  {
+    "job_id": "4484874297",
+    "title": "Especialista DevOps",
+    "company": "NTT DATA, Inc.",
+    "location": "Lima, Peru",
+    "url": "https://www.linkedin.com/jobs/view/4484874297/",
+    "date_posted": "2026-10-30",
+    "portal": "LINKEDIN",
+    "destination_portal": "LinkedIn (Easy Apply)",
+    "is_easy_apply": true,
+    "description": "Somos NTT DATA, la empresa de servicios TI más grande del mundo, contamos con más de 190.000 profesionales y operamos en más de 50 países. Brindamos soluciones de negocio, estrategia, desarrollo y mantenimiento de aplicaciones tecnológicas y outsourcing.\nQueremos seguir construyendo un entorno único de colaboración, creativo, cercano y generoso; que nos permita seguir evolucionando juntos, como comunidad y como sociedad, prosperando en un día a día lleno de nuevas y mejores posibilidades.\nEn NTT DATA todos somos Digital Lovers, nos une la tecnología y el corazón, dos ideas que cuando se mezclan nos dan infinitas posibilidades. Ser un Digital Lover es ser un amante de lo digital, es poner el corazón en lo que se hace, es no tener miedo de tener la cabeza en las nubes y ser capaz de iniciar cada proyecto con mariposas en el estómago.\nEstas a un paso de ser un Digital Lover, te invitamos a ser parte de nuestro vacante como:\nDevOps Engineer\ny vivir esta experiencia.\nRequisitos:\nExperiencia de 3 a 5 años en el puesto.\nExperiencia trabajando con servicios en la nube.\nExperiencia sólida en GitHub Enterprise Cloud (repositorios, GitHub Actions, GHAS, entre otros).\nExperiencia en el diseño e implementación de workflows reutilizables y composite, estandarización de pipelines y aplicación de buenas prácticas de CI/CD.\nConocimientos en migración y gestión de repositorios mediante GitHub Actions.\nDeseable conocimiento en automatización de infraestructura como código (IaC) y uso de GitHub Copilot.\nBeneficios:\nInmejorable oportunidad de línea de carrera profesional en nuestra consultora líder en el mercado TI.\nContrato indeterminado desde el primer día.\nEPS y Seguro Oncológico cubierto al 100%\nSeguro Vida Ley desde el primer día de labor.\nBono de alimentos.\nDescuentos corporativos\nPermanente capacitación y formación profesional.\nNTT DATA es un entorno inclusivo donde cada voz es escuchada y cada historia es valorada. Por eso, nuestro proceso de selección y reclutamiento se enfoca en identificar el talento sin distinción o sesgos relacionados con género, sexo, orientación sexual, discapacidad, edad u otras características personales",
+    "evaluation": {
+      "match_score": 60,
+      "recommendation": "DISCARD",
+      "salary_fit": "NOT_SPECIFIED",
+      "matching_points": [
+        "Experiencia sólida en múltiples nubes (AWS, Azure, OCI, GCP).",
+        "Sólida trayectoria técnica con 12 años de experiencia profesional.",
+        "Conocimientos en arquitectura de soluciones y modernización tecnológica."
+      ],
+      "missing_gaps": [
+        "Ausencia de experiencia específica en GitHub Enterprise Cloud (Actions, GHAS, Workflows).",
+        "Perfil excesivamente senior (Overqualified) para una vacante que busca 3-5 años de experiencia.",
+        "Falta de enfoque operativo en CI/CD y automatización de pipelines a nivel técnico detallado."
+      ],
+      "brief_rationale": "El candidato cuenta con un perfil de liderazgo y arquitectura demasiado avanzado (12 años de experiencia) para una posición de especialista DevOps de 3-5 años. Además, no se evidencia la especialización técnica profunda en el ecosistema de GitHub Enterprise, que es el requerimiento central de la vacante, lo que sugiere un desajuste tanto en seniority como en el stack tecnológico solicitado."
+    }
+  },
+  {
+    "job_id": "4184241253",
+    "title": "Especialista Cloud Junior",
+    "company": "Inetum",
+    "location": "San Isidro, Peru",
+    "url": "https://www.linkedin.com/jobs/view/4184241253/",
+    "date_posted": "2026-11-04",
+    "portal": "LINKEDIN",
+    "destination_portal": "Sitio Web de Inetum",
+    "is_easy_apply": false,
+    "description": "Descripción de la empresa\nSomos\nInetum\n, una compañía de servicios ágiles que proporciona soluciones digitales y un grupo global de tecnólogos que acompaña a sus clientes en el proceso de digitalización aprovechando al máximo el digital flow.\nOfrecemos a nuestros clientes una combinación única de proximidad, organización sectorial y soluciones de calidad. Presente en más de 26 países, el Grupo tiene cerca de 27.000 colaboradores y apunta a continuar creciendo.\n¡En Inetum acompañamos a nuestros clientes y colaboradores en su camino al éxito!\nSi te gusta reinventarte y resolver problemas con nuevas estrategias, trabajar en proyectos de IT y de negocios: ¡Postula ahora!\nRequisitos\nConocimiento de la nube de azure (identificación de suscripciones, componentes, grupo de recursos).\nConocimiento de tagging o etiquetado de componentes.\nConocimiento de políticas de tagging.\nConocimiento de reportes de análisis de costos (opcional)\nInformación adicional\n¿Qué vamos a ofrecerte como parte del equipo?\nRemuneración en planilla con todas las condiciones de ley.\nTarjeta de Alimentos\nBeneficios corporativos a través de nuestra plataforma de descuentos.\nCapacitaciones constantes acorde a tu línea de carrera y otras de interés general (plataformas de e-learning).\nLa oportunidad de participar en retos altamente innovadores.\nLínea de carrera.\nConoce más de nosotros en www.inetum.com/es o visita nuestras redes sociales como Inetum Perú para conocer más de nuestra cultura corporativa y metodologías de trabajo. ¡Te esperamos!\nEn Inetum promovemos la diversidad de género, origen étnico, nacionalidad, la inclusión de personas con discapacidad y/o habilidades diferentes mediante la igualdad de oportunidades en todos los procesos, y buscamos ampliar las oportunidades de desarrollo profesional\n.",
+    "evaluation": {
+      "match_score": 45,
+      "recommendation": "DISCARD",
+      "salary_fit": "BELOW_MINIMUM",
+      "matching_points": [
+        "Experiencia técnica comprobada en entornos Azure y servicios cloud.",
+        "Conocimiento profundo en gestión de costos y presupuestos (CAPEX/OPEX), lo cual cubre los requisitos de análisis de costos."
+      ],
+      "missing_gaps": [
+        "Sobrecalificación extrema: el candidato es un perfil Senior/Lead con 12 años de experiencia, mientras la vacante es para un rol Junior.",
+        "Desalineación de expectativas salariales y de crecimiento profesional."
+      ],
+      "brief_rationale": "El candidato está significativamente sobrecalificado para una posición Junior, poseyendo un perfil de Arquitecto y Tech Lead con 12 años de experiencia. Contratarlo resultaría en un riesgo alto de rotación temprana por falta de desafío profesional y una desalineación salarial insostenible para el nivel de la vacante."
+    }
+  }
+]

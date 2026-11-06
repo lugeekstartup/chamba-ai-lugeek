@@ -1,0 +1,19 @@
+{
+  "openai_api_key": "sk-Md10a4b1801e541419fb9a0211333eb2b9",
+  "openai_model": "gpt-6-luna",
+  "openai_base_url": "https://api.madeth.dev/v1",
+  "candidate_preferences": {
+    "keywords": [
+      "Software Engineer",
+      "Full Stack",
+      "Data",
+      "Tech Lead"
+    ],
+    "location": "Lima, Perú",
+    "modalities": [
+      "REMOTE",
+      "HYBRID"
+    ],
+    "easy_apply_only": true
+  }
+}

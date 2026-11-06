@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chamba AI Lugeek | Búsqueda de trabajo eficaz con la IA</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              200: '#c7d2fe',
+              300: '#a5b4fc',
+              400: '#818cf8',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              800: '#3730a3',
+              900: '#312e81',
+              950: '#1e1b4b',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" type="image/png" href="/static/logo.png">
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-100 min-h-full flex flex-col font-sans transition-colors duration-200">
+
+  <!-- TOP HEADER -->
+  <header class="sticky top-0 z-40 bg-white/90 dark:bg-slate-900/90 backdrop-blur border-b border-slate-200 dark:border-slate-800 transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <a href="/" class="flex items-center space-x-3 group">
+          <img src="/static/logo.png" alt="Lugeek Logo" class="h-10 w-auto object-contain rounded-lg shadow-sm group-hover:scale-105 transition-transform duration-200">
+          <div>
+            <div class="flex items-center space-x-2">
+              <h1 class="text-base font-bold tracking-tight text-slate-900 dark:text-white">Chamba AI Lugeek</h1>
+              <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-brand-100 text-brand-800 dark:bg-brand-900/60 dark:text-brand-300">Open Source</span>
+            </div>
+            <p class="text-[11px] text-slate-500 dark:text-slate-400">Busqueda de trabajo eficaz con la IA</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="flex items-center space-x-2 sm:space-x-3">
+        <!-- AI Status Badge / Setup button -->
+        <button onclick="openConfigModal()" id="btnAiStatus" class="px-3 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-xs font-medium flex items-center gap-1.5 hover:border-brand-500 transition">
+          <span class="w-2 h-2 rounded-full bg-amber-500" id="aiStatusDot"></span>
+          <span id="aiStatusText">Configurar IA</span>
+        </button>
+
+        <!-- Clear Data Button -->
+        <button onclick="clearAllData()" title="Limpiar todos los registros locales" class="p-2 rounded-xl text-slate-400 hover:text-rose-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+          <i class="fa-solid fa-trash-can text-sm"></i>
+        </button>
+
+        <!-- Dark Mode Toggle -->
+        <button onclick="toggleDarkMode()" class="p-2 rounded-xl text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+          <i class="fa-solid fa-moon dark:hidden text-sm"></i>
+          <i class="fa-solid fa-sun hidden dark:block text-sm"></i>
+        </button>
+
+        <!-- GitHub Repo Link -->
+        <a href="https://github.com/lugeekstartup" target="_blank" rel="noopener noreferrer" class="p-2 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition" title="Ver en GitHub @lugeekstartup">
+          <i class="fa-brands fa-github text-lg"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+
+    <!-- AI KEY NOTICE BANNER (if key not configured) -->
+    <div id="aiNoticeBanner" class="p-4 rounded-2xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+      <div class="flex items-start space-x-3">
+        <i class="fa-solid fa-wand-magic-sparkles text-amber-600 dark:text-amber-400 text-lg mt-0.5"></i>
+        <div>
+          <h4 class="text-xs font-bold text-amber-900 dark:text-amber-200">Configuración de Inteligencia Artificial</h4>
+          <p class="text-xs text-amber-700 dark:text-amber-300 mt-0.5">Puedes buscar vacantes en LinkedIn sin clave API. Para habilitar la lectura de CV, matching semántico y la generación de CV ATS Harvard, configura tu API Key y URL del proveedor (compatible con Familia Luna 6 y OpenAI).</p>
+        </div>
+      </div>
+      <button onclick="openConfigModal()" class="px-3.5 py-1.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-medium text-xs transition shrink-0 flex items-center gap-1.5 shadow-sm">
+        <i class="fa-solid fa-key"></i> Configurar IA / Luna 6
+      </button>
+    </div>
+        </div>
+      </div>
+      <button onclick="openConfigModal()" class="px-3.5 py-1.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-medium text-xs transition shrink-0 flex items-center gap-1.5 shadow-sm">
+        <i class="fa-solid fa-key"></i> Ingresar API Key
+      </button>
+    </div>
+
+    <!-- TABS BAR -->
+    <div class="flex border-b border-slate-200 dark:border-slate-800 gap-2 sm:gap-4 text-xs font-bold uppercase tracking-wider overflow-x-auto">
+      <button onclick="switchTab('cv')" id="tabBtn-cv" class="tab-btn px-4 py-3 border-b-2 border-brand-600 text-brand-600 dark:text-brand-400 flex items-center gap-2">
+        <i class="fa-solid fa-file-pdf"></i> 1. Carga y Fact Sheet de CV
+      </button>
+      <button onclick="switchTab('search')" id="tabBtn-search" class="tab-btn px-4 py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 flex items-center gap-2">
+        <i class="fa-brands fa-linkedin"></i> 2. Búsqueda en LinkedIn
+      </button>
+      <button onclick="switchTab('matches')" id="tabBtn-matches" class="tab-btn px-4 py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 flex items-center gap-2">
+        <i class="fa-solid fa-chart-pie"></i> 3. Matching & CV ATS Harvard
+      </button>
+    </div>
+
+    <!-- TAB 1: CV INGESTION & FACT SHEET -->
+    <section id="tab-cv" class="tab-pane space-y-6">
+      <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+        <div>
+          <h2 class="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
+            <span class="w-6 h-6 rounded-lg bg-brand-100 dark:bg-brand-900/60 text-brand-600 dark:text-brand-300 flex items-center justify-center text-xs">1</span>
+            Extracción Inteligente de CV
+          </h2>
+          <p class="text-xs text-slate-500 mt-1">Sube tu CV en formato PDF. La IA extraerá tus años demostrables de experiencia por tecnología, formación académica y certificaciones para construir tu Fact Sheet verificado.</p>
+        </div>
+
+        <!-- Drag & Drop Dropzone -->
+        <div id="dropZone" class="border-2 border-dashed border-slate-300 dark:border-slate-600 rounded-2xl p-8 text-center hover:border-brand-500 transition cursor-pointer bg-slate-50/50 dark:bg-slate-900/50">
+          <i class="fa-solid fa-cloud-arrow-up text-3xl text-brand-500 mb-2"></i>
+          <p class="text-xs font-semibold text-slate-700 dark:text-slate-200">Arrastra tu CV en PDF aquí o haz clic para seleccionarlo</p>
+          <p class="text-[11px] text-slate-400 mt-1">Archivos PDF de hasta 10 MB (procesados localmente)</p>
+          <input type="file" id="cvFileInput" accept=".pdf" class="hidden">
+        </div>
+
+        <!-- Loading indicator -->
+        <div id="cvLoading" class="hidden p-4 rounded-xl bg-brand-50 dark:bg-brand-950/40 border border-brand-200 dark:border-brand-800 text-brand-700 dark:text-brand-300 text-xs flex items-center gap-2.5">
+          <i class="fa-solid fa-circle-notch fa-spin text-base"></i>
+          <span>Analizando CV con Inteligencia Artificial y calculando Fact Sheet...</span>
+        </div>
+
+        <!-- CV Results Container -->
+        <div id="cvResults" class="hidden space-y-5 pt-2">
+          
+          <!-- Candidate Facts Form -->
+          <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/70 border border-slate-200 dark:border-slate-700 space-y-3">
+            <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-700 pb-2">
+              <h3 class="text-xs font-bold text-slate-800 dark:text-slate-200 flex items-center gap-1.5">
+                <i class="fa-solid fa-user-check text-brand-500"></i> Datos del Candidato
+              </h3>
+              <span id="resTotalYears" class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300">
+                0 años de experiencia
+              </span>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5">
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-500 mb-1">Primer Nombre</label>
+                <input type="text" id="candFirstName" class="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-xs outline-none focus:border-brand-500" placeholder="Nombre">
+              </div>
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-500 mb-1">Apellidos</label>
+                <input type="text" id="candLastName" class="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-xs outline-none focus:border-brand-500" placeholder="Apellidos">
+              </div>
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-500 mb-1">Correo Electrónico</label>
+                <input type="email" id="candEmail" class="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-xs outline-none focus:border-brand-500" placeholder="correo@ejemplo.com">
+              </div>
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-500 mb-1">Teléfono</label>
+                <div class="flex gap-1">
+                  <input type="text" id="candPhoneCode" class="w-16 px-2 py-1.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-xs text-center" value="+51">
+                  <input type="text" id="candPhoneNumber" class="flex-1 px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-xs outline-none focus:border-brand-500" placeholder="999999999">
+                </div>
+              </div>
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-500 mb-1">Ciudad</label>
+                <input type="text" id="candCity" class="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-xs outline-none focus:border-brand-500" value="Lima">
+              </div>
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-500 mb-1">País</label>
+                <input type="text" id="candCountry" class="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-xs outline-none focus:border-brand-500" value="Perú">
+              </div>
+              <div class="sm:col-span-2 flex items-end justify-end">
+                <button onclick="saveCandidateDetails()" class="px-4 py-1.5 rounded-lg bg-brand-600 hover:bg-brand-700 text-white font-medium text-xs transition flex items-center gap-1.5 shadow-sm">
+                  <i class="fa-solid fa-floppy-disk"></i> Guardar Datos
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fact Sheet: Skills, Education, Certs -->
+          <div class="p-5 rounded-xl bg-slate-50 dark:bg-slate-900/70 border border-slate-200 dark:border-slate-700 space-y-4">
+            <div class="border-b border-slate-200 dark:border-slate-800 pb-2">
+              <h3 id="resCandidateName" class="text-sm font-bold text-slate-900 dark:text-white">Nombre del Candidato</h3>
+              <p id="resCandidateHeadline" class="text-xs text-brand-600 dark:text-brand-400 font-medium">Titular profesional</p>
+            </div>
+
+            <!-- Skills Section -->
+            <div>
+              <h4 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2 flex items-center gap-1.5">
+                <i class="fa-solid fa-code text-brand-500"></i> Habilidades Técnicas & Años Detectados
+              </h4>
+              <div id="skillsGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2"></div>
+            </div>
+
+            <!-- Education Section -->
+            <div id="educationSection" class="hidden pt-2 border-t border-slate-200 dark:border-slate-800">
+              <h4 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2 flex items-center gap-1.5">
+                <i class="fa-solid fa-graduation-cap text-indigo-500"></i> Formación Académica
+              </h4>
+              <div id="educationList" class="space-y-1.5"></div>
+            </div>
+
+            <!-- Certifications Section -->
+            <div id="certificationsSection" class="hidden pt-2 border-t border-slate-200 dark:border-slate-800">
+              <h4 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2 flex items-center gap-1.5">
+                <i class="fa-solid fa-certificate text-amber-500"></i> Certificaciones
+              </h4>
+              <div id="certificationsList" class="space-y-1.5"></div>
+            </div>
+
+            <!-- Languages Section -->
+            <div id="languagesSection" class="hidden pt-2 border-t border-slate-200 dark:border-slate-800">
+              <h4 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2 flex items-center gap-1.5">
+                <i class="fa-solid fa-language text-emerald-500"></i> Idiomas
+              </h4>
+              <div id="languagesList" class="flex flex-wrap gap-1.5"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: LINKEDIN JOB SEARCH -->
+    <section id="tab-search" class="tab-pane hidden space-y-6">
+      <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div>
+            <h2 class="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
+              <span class="w-6 h-6 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-600 dark:text-blue-300 flex items-center justify-center text-xs">2</span>
+              Búsqueda en LinkedIn (Sin Login Requerido)
+            </h2>
+            <p class="text-xs text-slate-500 mt-1">Scraping público resiliente con simulación de navegación Chrome. Filtra automáticamente vacantes cerradas o inactivas.</p>
+          </div>
+          <button onclick="triggerJobSearch()" id="btnSearchJobs" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-xs transition shadow-md flex items-center gap-2 shrink-0">
+            <i class="fa-solid fa-magnifying-glass"></i> Buscar Vacantes
+          </button>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 p-4 bg-slate-50 dark:bg-slate-900/70 rounded-xl border border-slate-200 dark:border-slate-700">
+          <div>
+            <label class="block text-[11px] font-semibold text-slate-500 mb-1">Palabras Clave (Keywords)</label>
+            <input type="text" id="searchKeywords" class="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-xs outline-none focus:border-brand-500" value="Software Engineer">
+          </div>
+          <div>
+            <label class="block text-[11px] font-semibold text-slate-500 mb-1">Ubicación</label>
+            <input type="text" id="searchLocation" class="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-xs outline-none focus:border-brand-500" value="Lima, Perú">
+          </div>
+          <div>
+            <label class="block text-[11px] font-semibold text-slate-500 mb-1">Antigüedad de Publicación</label>
+            <select id="searchDateRange" class="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-xs outline-none">
+              <option value="past_month">Último mes</option>
+              <option value="past_week">Última semana</option>
+              <option value="past_24h">Últimas 24 horas</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-[11px] font-semibold text-slate-500 mb-1">Cantidad Máxima</label>
+            <select id="searchLimit" class="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-xs outline-none">
+              <option value="25">25 empleos</option>
+              <option value="15">15 empleos</option>
+              <option value="50">50 empleos</option>
+            </select>
+          </div>
+
+          <div class="sm:col-span-4 flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-slate-200 dark:border-slate-800">
+            <div class="flex flex-wrap items-center gap-4 text-xs">
+              <span class="font-bold text-slate-500 uppercase text-[10px]">Modalidad:</span>
+              <label class="inline-flex items-center gap-1.5 cursor-pointer">
+                <input type="checkbox" id="modRemote" checked class="rounded text-brand-600 focus:ring-0"> Remoto
+              </label>
+              <label class="inline-flex items-center gap-1.5 cursor-pointer">
+                <input type="checkbox" id="modHybrid" checked class="rounded text-brand-600 focus:ring-0"> Híbrido
+              </label>
+              <label class="inline-flex items-center gap-1.5 cursor-pointer">
+                <input type="checkbox" id="modOnsite" class="rounded text-brand-600 focus:ring-0"> Presencial
+              </label>
+            </div>
+
+            <div>
+              <label class="inline-flex items-center gap-2 cursor-pointer font-semibold text-xs text-emerald-700 dark:text-emerald-400">
+                <input type="checkbox" id="filterEasyApply" checked class="rounded text-emerald-600 focus:ring-0">
+                <i class="fa-solid fa-bolt"></i> Solo Vacantes con Easy Apply
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Search Status / Spinner -->
+        <div id="searchLoading" class="hidden p-4 rounded-xl bg-blue-50 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-800 text-blue-700 dark:text-blue-300 text-xs flex items-center gap-2.5">
+          <i class="fa-solid fa-circle-notch fa-spin text-base"></i>
+          <span>Consultando LinkedIn Guest API y verificando ofertas activas...</span>
+        </div>
+
+        <!-- Search Results List -->
+        <div class="space-y-3">
+          <div class="flex items-center justify-between">
+            <h3 class="text-xs font-bold uppercase tracking-wider text-slate-500" id="jobsCountTitle">Vacantes Encontradas (0)</h3>
+            <button onclick="switchTab('matches')" class="text-xs font-semibold text-brand-600 dark:text-brand-400 hover:underline">
+              Ir a Evaluación & Matching <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+          <div id="jobsList" class="space-y-2.5">
+            <p class="text-xs text-slate-400 py-6 text-center">No se han realizado búsquedas aún. Configura tus filtros y haz clic en "Buscar Vacantes".</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: MATCHING & TAILORED ATS CV -->
+    <section id="tab-matches" class="tab-pane hidden space-y-6">
+      <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div>
+            <h2 class="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
+              <span class="w-6 h-6 rounded-lg bg-emerald-100 dark:bg-emerald-900/60 text-emerald-600 dark:text-emerald-300 flex items-center justify-center text-xs">3</span>
+              Matching Cognitivo & CV ATS Harvard
+            </h2>
+            <p class="text-xs text-slate-500 mt-1">La IA compara las vacantes contra tu Fact Sheet y genera CVs adaptados en formato Harvard (100% negro monocromático, máximo 2 páginas).</p>
+          </div>
+          <button onclick="triggerEvaluateMatches()" id="btnEvalMatches" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-bold text-xs transition shadow-md flex items-center gap-2 shrink-0">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> Evaluar con IA
+          </button>
+        </div>
+
+        <!-- Evaluation Loading -->
+        <div id="matchesLoading" class="hidden p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300 text-xs flex items-center gap-2.5">
+          <i class="fa-solid fa-circle-notch fa-spin text-base"></i>
+          <span>Evaluando afinidad técnica y gaps con Inteligencia Artificial...</span>
+        </div>
+
+        <!-- Evaluated Matches List -->
+        <div id="matchesList" class="space-y-3">
+          <p class="text-xs text-slate-400 py-6 text-center">No hay evaluaciones guardadas. Primero busca empleos en el Paso 2 y luego haz clic en "Evaluar con IA".</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="pt-6 pb-2 border-t border-slate-200 dark:border-slate-800 text-center text-xs text-slate-500 dark:text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div class="flex items-center space-x-2">
+        <img src="/static/logo.png" alt="Lugeek Logo" class="h-6 w-auto object-contain">
+        <span class="font-bold text-slate-700 dark:text-slate-300">Chamba AI Lugeek</span>
+        <span>— Busqueda de trabajo eficaz con la IA</span>
+      </div>
+      <div>
+        <span>Repositorio oficial:</span>
+        <a href="https://github.com/lugeekstartup" target="_blank" rel="noopener noreferrer" class="text-brand-600 dark:text-brand-400 hover:underline font-semibold ml-1">
+          <i class="fa-brands fa-github mr-1"></i>github.com/lugeekstartup
+        </a>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- MODAL: AI & OPENAI CONFIG -->
+  <div id="configModal" class="hidden fixed inset-0 z-50 bg-black/50 backdrop-blur-xs flex items-center justify-center p-4">
+    <div class="bg-white dark:bg-slate-800 rounded-2xl max-w-md w-full p-6 shadow-2xl border border-slate-200 dark:border-slate-700 space-y-4">
+      <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-700 pb-3">
+        <div class="flex items-center space-x-2">
+          <span class="w-8 h-8 rounded-lg bg-brand-100 text-brand-700 dark:bg-brand-900/50 dark:text-brand-300 flex items-center justify-center font-bold">
+            <i class="fa-solid fa-gear"></i>
+          </span>
+          <h3 class="text-sm font-bold text-slate-900 dark:text-white">Configuración de Inteligencia Artificial</h3>
+        </div>
+        <button onclick="closeConfigModal()" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+          <i class="fa-solid fa-xmark text-base"></i>
+        </button>
+      </div>
+
+      <div class="space-y-3 text-xs">
+        <p class="text-slate-500">Conecta tu proveedor de IA ingresando la URL de su API, tu clave de acceso y seleccionando el modelo deseado (soporte completo para la <strong>Familia Luna 6</strong> y OpenAI).</p>
+
+        <div>
+          <label class="block font-semibold text-slate-700 dark:text-slate-200 mb-1 flex items-center justify-between">
+            <span><i class="fa-solid fa-globe text-brand-500 mr-1"></i> URL de la API (Base URL / Endpoint)</span>
+            <span class="text-[10px] text-slate-400 font-normal">Opcional para custom endpoints</span>
+          </label>
+          <input type="text" id="inputBaseUrl" class="w-full px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-xs outline-none focus:border-brand-500 font-mono" placeholder="https://api.openai.com/v1 (o la URL de tu proveedor/gateway)">
+          <p class="text-[10px] text-slate-400 mt-1">Ingresa la URL del proveedor web de tu API (ej: para Familia Luna 6 o proxies). Déjalo vacío si usas el endpoint oficial de OpenAI.</p>
+        </div>
+
+        <div>
+          <label class="block font-semibold text-slate-700 dark:text-slate-200 mb-1">
+            <i class="fa-solid fa-key text-brand-500 mr-1"></i> API Key / Clave de Acceso
+          </label>
+          <div class="relative">
+            <input type="password" id="inputApiKey" class="w-full px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-xs pr-10 outline-none focus:border-brand-500 font-mono" placeholder="sk-...">
+            <button type="button" onclick="toggleApiKeyVisibility()" class="absolute right-3 top-2.5 text-slate-400 hover:text-slate-600">
+              <i id="apiKeyEyeIcon" class="fa-solid fa-eye text-xs"></i>
+            </button>
+          </div>
+          <p id="apiKeyStatus" class="text-[11px] text-slate-400 mt-1"></p>
+        </div>
+
+        <div>
+          <label class="block font-semibold text-slate-700 dark:text-slate-200 mb-1">
+            <i class="fa-solid fa-microchip text-brand-500 mr-1"></i> Modelo de Inteligencia Artificial
+          </label>
+          <select id="selectModel" onchange="checkCustomModelVisibility()" class="w-full px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-xs outline-none font-medium">
+            <optgroup label="Familia Luna 6 (Recomendado)">
+              <option value="gpt-6-luna" selected>gpt-6-luna (Luna 6 Estándar)</option>
+              <option value="gpt-6-luna-pro">gpt-6-luna-pro (Luna 6 Pro — Máxima Capacidad)</option>
+              <option value="gpt-6-luna-mini">gpt-6-luna-mini (Luna 6 Mini — Ultra Rápido)</option>
+            </optgroup>
+            <optgroup label="Modelos OpenAI Oficial">
+              <option value="gpt-4o">gpt-4o (Mayor Precisión ATS)</option>
+              <option value="gpt-4o-mini">gpt-4o-mini (Económico y Veloz)</option>
+              <option value="gpt-4-turbo">gpt-4-turbo</option>
+            </optgroup>
+            <optgroup label="Personalizado">
+              <option value="custom">Otro modelo personalizado...</option>
+            </optgroup>
+          </select>
+          <div id="customModelWrapper" class="hidden mt-2">
+            <input type="text" id="inputCustomModel" class="w-full px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-xs outline-none focus:border-brand-500 font-mono" placeholder="Ej: gpt-6-luna, claude-3-5-sonnet, etc.">
+          </div>
+        </div>
+
+        <div class="p-3 bg-slate-50 dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-700 text-[11px] text-slate-500 flex items-start gap-2">
+          <i class="fa-solid fa-shield-halved text-brand-500 mt-0.5"></i>
+          <span>Tu clave API y configuración se almacenan en tu propio archivo local <code>config/settings.json</code> y nunca se comparten con terceros.</span>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-slate-700">
+        <button onclick="testAiConnection()" id="btnTestConn" class="px-3.5 py-2 rounded-xl border border-slate-300 dark:border-slate-600 text-xs font-semibold hover:border-brand-500 transition flex items-center gap-1.5">
+          <i class="fa-solid fa-plug"></i> Probar Conexión
+        </button>
+        <button onclick="saveAiConfig()" class="px-5 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold transition shadow-sm">
+          Guardar Cambios
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: TAILORED ATS CV GENERATED -->
+  <div id="tailoredModal" class="hidden fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
+    <div class="bg-white dark:bg-slate-800 rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-slate-200 dark:border-slate-700 space-y-4">
+      <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-700 pb-3">
+        <div class="flex items-center space-x-2">
+          <span class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 dark:bg-emerald-900/50 dark:text-emerald-300 flex items-center justify-center font-bold">
+            <i class="fa-solid fa-file-pdf"></i>
+          </span>
+          <h3 class="text-sm font-bold text-slate-900 dark:text-white">CV Adaptado ATS (Estándar Harvard)</h3>
+        </div>
+        <button onclick="closeTailoredModal()" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+          <i class="fa-solid fa-xmark text-base"></i>
+        </button>
+      </div>
+
+      <div class="space-y-3 text-xs">
+        <p class="text-slate-500">Documento adaptado en formato 100% negro monocromático, tipografía Serif clásica y estrictamente dentro del límite de 2 páginas.</p>
+
+        <div class="p-3 bg-slate-50 dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-700 space-y-2">
+          <div>
+            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Titular Estratégico:</span>
+            <p id="tailorTargetHeadline" class="text-xs font-bold text-brand-600 dark:text-brand-400 mt-0.5"></p>
+          </div>
+          <div>
+            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Resumen de Impacto ATS:</span>
+            <p id="tailorSummary" class="text-[11px] text-slate-600 dark:text-slate-300 italic mt-0.5"></p>
+          </div>
+          <div>
+            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Palabras Clave Inyectadas:</span>
+            <div id="tailorSkills" class="flex flex-wrap gap-1 mt-1"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-slate-700">
+        <button onclick="closeTailoredModal()" class="px-4 py-2 text-xs font-semibold rounded-xl text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-700">
+          Cerrar
+        </button>
+        <a id="tailorDownloadBtn" href="#" target="_blank" download class="px-5 py-2.5 text-xs font-bold rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white flex items-center gap-2 shadow-md">
+          <i class="fa-solid fa-download"></i> Descargar PDF Harvard (ATS)
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="/static/app.js?v=1.0.0"></script>
+</body>
+</html>
